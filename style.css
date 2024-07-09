@@ -1,0 +1,86 @@
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* -----------------------------header style---------------------- */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 25px;
+}
+nav ul{
+  list-style: none;
+}
+nav li a{
+  text-decoration: none;
+  font-size: 28px;
+  color: rgba(13, 19, 33, 1);
+}
+
+.btn-primary{
+  font-size: 15px;
+  padding: 10px 7px;
+  border-bottom: 1px solid rgba(13, 19, 33, 1);
+  border-redius: 25px;
+}
+
+ /* -----------------------------hero section style--------------------------- */
+
+
+ .hero{
+  width: 1584px;
+  height: 717px;
+ }
+ .hero-section{
+  background-image: url(./assets/Hero-bg.png);
+  text-align: center;
+ }
+ .title{
+  text-size: 48px;
+  text-align: center;
+ }
+
+ /* -----------------------------btn-secondary style-------------------------------------- */
+
+
+ .button2{
+  text-align: center;
+  padding-top: 10px;
+ }
+ .btn-secondary{
+  text-align: center;
+  font-size: 15px;
+ }
+ .button2 .btn-secondary{
+  color: #FFFFFF;
+  padding: 10px;
+  background-color: rgba(13, 19, 33, 1);
+  border: none;
+ }
+ .why-web-development{
+  text-align: center;
+  width: 70%;
+  
+ }
+ .why-web-development p{
+  font-size: 15px;
+  color:rgba(13, 19, 33, 1);
+ }
+
+ /* development-description */
+
+ .development-description{
+  display: flex;
+  width: 1025px;
+  height: 400px;
+  padding: 10px 140px;
+  gap: 5px;
+ }
+ .Layer img{
+  padding: 70px;
+ }
+ 

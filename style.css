@@ -109,3 +109,45 @@ nav li a{
   color: rgba(13, 19, 33, 1);
   font-size: 20px;
  }
+
+ /* framework style */
+ .framework-title{
+  text-align: center;
+ }
+ 
+ .wrapper img{
+  max-width: 320px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 5px 10px;
+
+ }
+ .wrapper{
+  margin: 150px auto;
+  width: 60%;
+  
+ }
+ .text-box h1{
+  font-size: 24px;
+  font-weight: bold;
+ }
+ .text-box p{
+  font-size: 12px;
+  color: rgba(13, 19, 33, 1);
+  justify-content: justify;
+ }
+ .text-box .learn{
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 140px;
+ }
+
+ /* support-title */
+
+ .support-title {
+  background-image: url("./assets/handshake.jpg");
+  width: 100%;
+  height: 800px;
+  padding: 0px 0px 30px 20px;
+ }

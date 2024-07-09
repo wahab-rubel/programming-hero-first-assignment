@@ -5,12 +5,12 @@
   font-style: normal;
 }
 
-/* -----------------------------header style---------------------- */
+/* header style */
 
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 25px 25px;
+  padding: 40px 30px;
 }
 nav ul{
   list-style: none;
@@ -28,23 +28,24 @@ nav li a{
   border-redius: 25px;
 }
 
- /* -----------------------------hero section style--------------------------- */
-
+ /* hero section style */
 
  .hero{
-  width: 1584px;
-  height: 717px;
+  background-image: url(../assets/Hero-bg.png);
+  width: 1400px;
+  height: 500px;
  }
  .hero-section{
-  background-image: url(./assets/Hero-bg.png);
   text-align: center;
+  width: 1520px;
+  height: px;
  }
  .title{
   text-size: 48px;
   text-align: center;
  }
 
- /* -----------------------------btn-secondary style-------------------------------------- */
+ /* btn-secondary style */
 
 
  .button2{
@@ -61,12 +62,10 @@ nav li a{
   background-color: rgba(13, 19, 33, 1);
   border: none;
  }
+ 
  .why-web-development{
+  margin-top: 10px;
   text-align: center;
-  width: 70%;
-  
- }
- .why-web-development p{
   font-size: 15px;
   color:rgba(13, 19, 33, 1);
  }
@@ -83,4 +82,15 @@ nav li a{
  .Layer img{
   padding: 70px;
  }
- 
+ /* inspiration */
+
+ .inspiration{
+  text-align: center;
+ }
+
+ .video{
+  text-align: center;
+ }
+ .video video{
+  border: 5px solid red;
+ }

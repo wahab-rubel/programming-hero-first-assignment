@@ -228,15 +228,14 @@ padding: 25px;
 
 /* footer-section */
 .footer-section h3{
-  justify-content: space-between;
+  padding: 10px 25px 20px 20px;
 }
 .footer-section ul{
 list-style: none;
 }
 .footer-section li{
   float: right;
-  font-size: 30px;
-  justify-content: space-between;
+  font-size: 20px;
 }
 .footer-section li a{
   margin: 10px 20px;

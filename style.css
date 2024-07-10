@@ -1,4 +1,7 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
@@ -30,13 +33,13 @@ nav li a{
 
  .hero{
   background-image: url(../assets/Hero-bg.png);
-  width: 1400px;
+  padding: 62px 100px 200px 200px;
+  width: 1520px;
   height: 500px;
  }
  .hero-section{
   text-align: center;
   width: 1520px;
-  height: px;
  }
  .title{
   text-size: 48px;
@@ -61,8 +64,8 @@ nav li a{
   border: none;
  }
  
- .why-web-development{
-  margin-top: 10px;
+ .why-development{
+  margin-top: 119px;
   text-align: center;
   font-size: 15px;
   color:rgba(13, 19, 33, 1);
@@ -73,9 +76,9 @@ nav li a{
  .development-description{
   display: flex;
   width: 1025px;
-  height: 400px;
-  padding: 10px 140px;
-  gap: 5px;
+  height: 80px;
+  padding: 80px 190px 240px 242px;
+  
  }
  .Layer img{
   padding: 70px;
@@ -207,4 +210,18 @@ padding: 25px;
  
 /* submit-comment */
 
-
+.submit-comment{
+  background-image: url(../assets/handshake.jpg);
+  background-width: 400xp 200px;
+  background-repeat: no-repeat;
+  background-size: 0xp 0px 200px 200px;
+  align-items: center;
+  padding: 37px;
+  width: 1520px;
+  height: 900px;
+}
+.submit-description{
+  color: white;
+  text-align: center;
+  padding: 300px;
+}
